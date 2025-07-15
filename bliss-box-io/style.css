@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Pixelify Sans", sans-serif;
+  background-color: #e6e6fa; /* lavender background */
+  overflow: hidden; /* to prevent scrollbars */
+}
+
+canvas {
+  display: block;
+}

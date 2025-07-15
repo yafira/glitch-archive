@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Admin Dashboard</title>
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="top">
+				<div class="search">
+					<label for="search"
+						><span class="material-icons-outlined search-icon">
+							search
+						</span></label
+					>
+					<input type="text" name="search" id="search" />
+				</div>
+				<div class="account">
+					<button>
+						<span class="material-icons-outlined"> notifications_active </span>
+					</button>
+					<div class="picture"></div>
+					<p class="name">Sailor Thundercloud</p>
+				</div>
+			</div>
+
+			<div class="bottom">
+				<div class="profile">
+					<div class="picture"></div>
+					<div class="profile-name">
+						<p class="greeting">Welcome,</p>
+						<p class="name">
+							Sailor Thundercloud <span class="username">(@sailor)</span>
+						</p>
+					</div>
+				</div>
+				<div class="buttons">
+					<button class="btn">New</button>
+					<button class="btn">Upload</button>
+					<button class="btn">Share</button>
+				</div>
+			</div>
+		</header>
+
+		<aside class="sidebar">
+			<h1 class="sidebar-title">
+				<span class="material-icons"> dashboard </span>
+				Dashboard
+			</h1>
+			<ul class="nav">
+				<li class="nav-item current">
+					<a href="#" class="nav-link"
+						><span class="material-icons"> home </span> Home</a
+					>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link"
+						><span class="material-icons-outlined"> account_circle </span>
+						Profile</a
+					>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link"
+						><span class="material-icons-outlined"> message </span> Messages</a
+					>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link"
+						><span class="material-icons-outlined"> history </span> History</a
+					>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link"
+						><span class="material-icons-outlined"> task </span> Tasks</a
+					>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link"
+						><span class="material-icons-outlined"> groups </span>
+						Communities</a
+					>
+				</li>
+			</ul>
+			<ul class="nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link"
+						><span class="material-icons-outlined"> settings </span> Settings</a
+					>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link"
+						><span class="material-icons-outlined"> help_center </span>
+						Support</a
+					>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link"
+						><span class="material-icons-outlined"> verified_user </span>
+						Privacy</a
+					>
+				</li>
+			</ul>
+		</aside>
+
+		<main class="content">
+			<div class="projects">
+				<h3>Your Projects</h3>
+				<div class="cards">
+					<div class="card">
+						<h5 class="card-title">Space Food Recipes</h5>
+						<p class="card-text">
+							In mattis ipsum quis mi pharetra tincidunt. Phasellus quam quam,
+							tempor eu tortor ac, maximus cursus felis. Nunc efficitur
+							consequat ligula, ut malesuada enim finibus quis!
+						</p>
+						<div class="actions">
+							<span class="material-icons-outlined"> star_border </span>
+							<span class="material-icons-outlined"> visibility </span>
+							<span class="material-icons-outlined"> open_in_new </span>
+						</div>
+					</div>
+					<div class="card">
+						<h5 class="card-title">Alohomora Magic Spell</h5>
+						<p class="card-text">
+							Risus commodo viverra maecenas accumsan lacus vel. Nunc eget lorem
+							dolor sed viverra ipsum nunc aliquet bibendum. Nec sagittis
+							aliquam malesuada bibendum arcu vitae elementum.
+						</p>
+						<div class="actions">
+							<span class="material-icons-outlined"> star_border </span>
+							<span class="material-icons-outlined"> visibility </span>
+							<span class="material-icons-outlined"> open_in_new </span>
+						</div>
+					</div>
+					<div class="card">
+						<h5 class="card-title">Infinity App</h5>
+						<p class="card-text">
+							Maecenas ut venenatis dolor. Vivamus vel ipsum et lorem tristique
+							molestie. Maecenas a nisl consectetur, egestas massa vel, volutpat
+							leo. Suspendisse non libero nec magna consequat pellentesque ut
+							quis diam. Praesent ipsum eros, iaculis a euismod vel, scelerisque
+							pellentesque metus. Aliquam in porta odio.
+						</p>
+						<div class="actions">
+							<span class="material-icons-outlined"> star_border </span>
+							<span class="material-icons-outlined"> visibility </span>
+							<span class="material-icons-outlined"> open_in_new </span>
+						</div>
+					</div>
+
+					<div class="card">
+						<h5 class="card-title">Moon Dream OS</h5>
+						<p class="card-text">
+							Sed gravida eget augue sit amet facilisis. Phasellus libero
+							mauris, tempus in pretium vitae, tempus non nibh. Fusce sit amet
+							arcu ac justo blandit vestibulum. Integer lacus felis, blandit non
+							leo at, commodo tincidunt nunc. Nulla luctus nulla mollis felis
+							rhoncus, ut lobortis turpis porta. Quisque ac maximus diam, at
+							vehicula ligula. Lorem ipsum dolor sit amet, consectetur
+							adipiscing elit.
+						</p>
+						<div class="actions">
+							<span class="material-icons-outlined"> star_border </span>
+							<span class="material-icons-outlined"> visibility </span>
+							<span class="material-icons-outlined"> open_in_new </span>
+						</div>
+					</div>
+
+					<div class="card">
+						<h5 class="card-title">Cyber Ad Blocker</h5>
+						<p class="card-text">
+							Turpis egestas integer eget aliquet nibh praesent tristique magna.
+							Neque laoreet suspendisse interdum consectetur libero. Etiam erat
+							velit scelerisque in dictum non consectetur a.
+						</p>
+						<div class="actions">
+							<span class="material-icons-outlined"> star_border </span>
+							<span class="material-icons-outlined"> visibility </span>
+							<span class="material-icons-outlined"> open_in_new </span>
+						</div>
+					</div>
+					<div class="card">
+						<h5 class="card-title">A.I Art Generator</h5>
+						<p class="card-text">
+							In mattis ipsum quis mi pharetra tincidunt. Phasellus quam quam,
+							tempor eu tortor ac, maximus cursus felis. Nunc efficitur
+							consequat ligula, ut malesuada enim finibus quis. Vivamus in
+							rutrum purus. Cras id sapien mattis, efficitur lorem varius,
+							laoreet purus. Donec mollis vulputate orci tempor faucibus.
+							Phasellus a euismod justo. Morbi aliquet tincidunt bibendum. Duis
+							vehicula nibh erat, vitae volutpat mi lobortis at.
+						</p>
+						<div class="actions">
+							<span class="material-icons-outlined"> star_border </span>
+							<span class="material-icons-outlined"> visibility </span>
+							<span class="material-icons-outlined"> open_in_new </span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="announcements">
+				<h3>Announcements</h3>
+				<ul class="card">
+					<li class="announcement">
+						<h5 class="card-title">New Updates</h5>
+						<p class="card-text">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+							voluptatum ipsa cupiditate unde minima odio sunt fugit distinctio
+							labore sit accusantium voluptas voluptate aliquid rem adipisci
+							harum, quasi modi eum quae veritatis amet iusto ratione ea fugiat.
+						</p>
+					</li>
+					<li class="announcement">
+						<h5 class="card-title">Daily Affirmations</h5>
+						<p class="card-text">
+							Vel rem, ipsa officia commodi veniam excepturi, ex, molestias
+							perspiciatis consequuntur sint error voluptatem cum facilis?
+							Voluptas accusantium, nemo laboriosam quidem ipsum explicabo sed
+							alias possimus reprehenderit libero? Quidem illo nisi fuga odio
+							veritatis ipsa ex quae, aut saepe!
+						</p>
+					</li>
+					<li class="announcement">
+						<h5 class="card-title">Site Maintenance</h5>
+						<p class="card-text">
+							Accusamus nihil dicta, quisquam, similique doloremque unde quidem
+							quaerat a possimus eum deleniti libero, dolore asperiores
+							nulla!Consectetur numquam ex, sit cupiditate cumque aut quas natus
+							beatae nulla veritatis architecto maiores exercitationem debitis,
+							adipisci delectus corporis iure optio.
+						</p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="trending">
+				<h3>Trending</h3>
+				<ul class="card">
+					<li class="trend trend-1">
+						<div class="picture"></div>
+						<div class="account">
+							<p class="username">@taylor</p>
+							<p class="name card-text">World Peace Builder</p>
+						</div>
+					</li>
+					<li class="trend trend-2">
+						<div class="picture"></div>
+						<div class="account">
+							<p class="username">@sailor</p>
+							<p class="name card-text">Space Food Recipes</p>
+						</div>
+					</li>
+					<li class="trend trend-3">
+						<div class="picture"></div>
+						<div class="account">
+							<p class="username">@phoenix</p>
+							<p class="name card-text">Lifehacker App</p>
+						</div>
+					</li>
+					<li class="trend trend-4">
+						<div class="picture"></div>
+						<div class="account">
+							<p class="username">@marly</p>
+							<p class="name card-text">Magic Spells</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</main>
+	</body>
+</html>
