@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Indie Flower", cursive;
+  src: url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
+}
+
+h1 {
+  font-family: "Indie Flower", cursive;
+  font-size: 70px;
+}
+
+body {
+  font-family: "Comfortaa", cursive;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(199, 247, 236);
+}
+
+.user,
+.computer {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.user {
+  background-color: rgb(250, 221, 247);
+}
+
+.computer {
+  background-color: rgb(218, 196, 244);
+}
+
+.game-score {
+  background: rgb(221, 240, 249);
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: rgb(135, 158, 250);
+  align-items: center;
+  border-style: solid;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.game-score h2 {
+  margin: 0px 10px;
+}
+
+.round {
+  background: rgb(221, 240, 249);
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: rgb(135, 158, 250);
+  align-items: center;
+  border-style: solid;
+  max-width: 190px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.tie {
+  background: rgb(221, 240, 249);
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: rgb(135, 158, 250);
+  align-items: center;
+  border-style: solid;
+  max-width: 190px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.round,
+.tie {
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.container {
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 25px 50px;
+  width: 80vw;
+}
+
+.action {
+  max-width: 800px;
+  padding: 40px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+
+.options {
+  background-color: rgb(245, 244, 200);
+  flex: 1 1 30%;
+  border-width: 4px;
+  border-style: dashed;
+  border-color: rgb(135, 158, 250);
+  padding: 50px;
+  animation-name: anim-fade;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  width: 100%;
+  max-width: 120px;
+}
+
+.options:hover {
+  animation-name: wobble-vertical;
+  animation-timing-function: ease;
+}
+@keyframes wobble-vertical {
+  15% {
+    transform: translateX(-25%) rotate(-5deg);
+  }
+  30% {
+    transform: translateX(20%) rotate(3deg);
+  }
+  45% {
+    transform: translateX(-15%) rotate(-3deg);
+  }
+  60% {
+    transform: translateX(10%) rotate(2deg);
+  }
+  75% {
+    transform: translateX(-5%) rotate(-1deg);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+footer {
+  font-size: 20px;
+  height: 60px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+footer .fa-heart {
+  color: rgb(217, 181, 242);
+  padding: 0 10px 0;
+}

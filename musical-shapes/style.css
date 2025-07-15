@@ -1,0 +1,61 @@
+body, html {
+  background-color: #FAF9F6;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.keys {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.key {
+  position: absolute;
+  transition: transform 0.07s ease;
+}
+
+.key img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.key.playing {
+  transform: scale(1.1);
+  border-color: yellow;
+}
+
+.key.playing img {
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(255, 255, 0, 0.7);
+}
+
+.key[data-key="1"].playing {
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+}
+
+.key[data-key="2"].playing {
+  background: linear-gradient(45deg, #a1c4fd, #c2e9fb);
+}
+
+.key[data-key="3"].playing {
+  background: linear-gradient(45deg, #d4fc79, #96e6a1);
+}
+
+.key[data-key="4"].playing {
+  background: linear-gradient(45deg, #84fab0, #8fd3f4);
+}
+
+.key[data-key="5"].playing {
+  background: linear-gradient(45deg, #a18cd1, #fbc2eb);
+}
+
+.key[data-key="6"].playing {
+  background: linear-gradient(45deg, #fccb90, #d57eeb);
+}
+
+.key[data-key="7"].playing {
+  background: linear-gradient(45deg, #fbc2eb, #a6c1ee);
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <h1>Kawaii RPS</h1>
+    <div class="game-score">
+      <div class="user">
+        You
+      </div>
+      <h2><span id="p-score">0</span>-<span id="c-score">0</span></h2>
+      <div class="computer">
+        Computer
+      </div>
+    </div>
+
+    <div class="round">
+      <span id="round-count">Round: 0</span>
+    </div>
+
+    <div class="tie">
+      <span id="tie-count">Tie: 0</span>
+    </div>
+
+    <p>Choose your destructor:</p>
+    <div class="action">
+      <input
+        class="options"
+        type="image"
+        src="https://cdn.glitch.com/74764461-cb6c-4115-931d-55a9f16948da%2Fpaper.png?v=1633126583428"
+        value="Rock"
+      />
+      <input
+        class="options"
+        type="image"
+        src="https://cdn.glitch.com/74764461-cb6c-4115-931d-55a9f16948da%2Frock.png?v=1633126590351"
+        value="Paper"
+      />
+      <input
+        class="options"
+        type="image"
+        src="https://cdn.glitch.com/74764461-cb6c-4115-931d-55a9f16948da%2Fscissors.png?v=1633126593527"
+        value="Scissors"
+      />
+    </div>
+
+    <span id="outcome"></span>
+    <br />
+    <br />
+    <span id="stage"></span>
+
+    <footer>Made with <i class="fas fa-heart"></i> by Yafira</footer>
+  </body>
+</html>
+
+<!-- my script -->
+<script src="script.js"></script>

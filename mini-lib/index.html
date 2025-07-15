@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Bookmark</title>
+	</head>
+	<body>
+		<h1>Bookmark</h1>
+		<div id="newBtn-container">
+			<button id="newBtn">+ Add book</button>
+		</div>
+		<div id="library-card">
+			<form id="form" action="/script.js">
+				<span class="close">&times;</span>
+				<legend>LIBRARY CARD</legend>
+				<div id="textInput">
+					<p>
+						<input
+							type="text"
+							name="title"
+							id="title"
+							placeholder="Title"
+							minlength="1"
+							maxlength="100"
+							required
+						/>
+					</p>
+					<p>
+						<input
+							type="text"
+							name="author"
+							id="author"
+							placeholder="Author"
+							minlength="1"
+							maxlength="100"
+							required
+						/>
+					</p>
+					<p>
+						<input
+							type="number"
+							name="pages"
+							id="pages"
+							placeholder="Pages"
+							minlength="1"
+							maxlength="100"
+							required
+						/>
+					</p>
+				</div>
+				<div id="checkBox">
+					<p>
+						<label>Read?</label>
+						<input type="checkbox" id="read" name="read" value="yes" required />
+					</p>
+				</div>
+				<button type="submit" form="form" id="addBtn">Add</button>
+			</form>
+		</div>
+		<div id="lib-container"></div>
+
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,54 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding: 80px;
+  margin: auto;
+}
+.right {
+  float: right;
+}
+
+.left {
+  display: inline-block;
+}
+
+.color {
+  background-color: rgb(137, 137, 137);
+  border: 1px solid #000000;
+  transition: ease 0.1s all;
+}
+
+.canvas {
+  margin-top: 25px;
+  margin-right: 40px;
+  display: inline-grid;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 575px;
+  width: 575px;
+}
+
+.cell {
+  background-color: rgb(242, 242, 242);
+  border: 1px solid #000000;
+}
+
+footer {
+  margin: 700px 0 0 0;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+footer .fa-heart {
+  color: rgb(217, 181, 242);
+  padding: 0 10px 0;
+}
+
+@media (max-width: 840px) {
+  footer {
+    display: none;
+  }
+}

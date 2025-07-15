@@ -1,0 +1,48 @@
+{
+  "metaTitle": "electrocute",
+  "metaDescription": "My meta description.",
+  "name": "Glitch in Bio",
+  "theme": "custom-theme",
+  "avatarImage": "https://cdn.glitch.global/2d9e3f46-3783-4104-9793-3e8004c7608f/favicon.ico?v=1684980756217",
+  "links": [
+     {
+     "url": "https://yafira.xyz",
+      "text": "about me",
+      "img": "",
+      "altText": "notion website"
+    },
+    {
+     "url": "https://electrocute.io",
+      "text": "electrocute.io",
+      "img": "",
+      "altText": "electrocute lab"
+    },
+    {
+      "url": "https://cutetech.tools",
+      "text": "cute technologies",
+      "img": "",
+      "altText": "cute tech tools"
+    },
+    {
+      "url": "https://www.snax.blog/",
+      "text": "snax",
+      "img":"",
+      "altText": "vegan snacks"
+    }
+  ],
+  "social": {
+    "glitch": "",
+    "arena":"https://www.are.na/yafira/electr0cute",
+    "github": "https://github.com/yafira",
+    "instagram": "https://www.instagram.com/electrocutelab/",
+    "keybase":"",
+    "linkedin": "",
+    "medium": "",
+    "patreon": "",
+    "pinboard":"",
+    "pinterest": "https://www.pinterest.com/electr0cute/",
+    "twitter": "",
+    "tumblr": "",
+    "email": "electrocutelab@gmail.com"
+  }
+}

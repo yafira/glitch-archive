@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+  margin: 30px;
+  background-color: black;
+}
+
+.board {
+  width: 400px;
+  height: 400px;
+  border: 5px solid rgb(0, 0, 0);
+  border-spacing: "0";
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  border: 2px solid rgb(171, 171, 171);
+  border-style: inset;
+}
+
+.cell:hover {
+  opacity: 0.9;
+}
+
+.dark-cell {
+  background-color: rgb(0, 0, 0);
+}
+
+.light-cell {
+  background-color: rgb(247, 242, 235);
+}
+
+.light-pawn,
+.light-rook,
+.light-rook2,
+.light-knight,
+.light-knight2,
+.light-bishop,
+.light-bishop2,
+.light-queen,
+.light-king,
+.dark-pawn,
+.dark-rook,
+.dark-rook2,
+.dark-knight,
+.dark-knight2,
+.dark-bishop,
+.dark-bishop2,
+.dark-queen,
+.dark-king {
+  /* background-color: red; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* light chess pieces */
+.light-pawn {
+  background-image: url(https://cdn.glitch.global/63f4677e-df95-47dc-a3a4-23138d15c67a/light-pawn.png?v=1698446423457);
+}
+
+.light-rook,
+.light-rook2 {
+  background-image: url(https://cdn.glitch.global/63f4677e-df95-47dc-a3a4-23138d15c67a/light-rook.png?v=1698446417206);
+}
+
+.light-knight,
+.light-knight2 {
+  background-image: url(https://cdn.glitch.global/63f4677e-df95-47dc-a3a4-23138d15c67a/light-knight.png?v=1698446429436);
+}
+
+.light-bishop,
+.light-bishop2 {
+  background-image: url(https://cdn.glitch.global/63f4677e-df95-47dc-a3a4-23138d15c67a/light-bishop.png?v=1698446437249);
+}
+
+.light-queen {
+  background-image: url(https://cdn.glitch.global/63f4677e-df95-47dc-a3a4-23138d15c67a/light-queen.png?v=1698446420842);
+}
+
+.light-king {
+  background-image: url(https://cdn.glitch.global/63f4677e-df95-47dc-a3a4-23138d15c67a/light-king.png?v=1698446433981);
+}
+/* dark chess pieces */
+.dark-pawn {
+  background-image: url(https://cdn.glitch.global/63f4677e-df95-47dc-a3a4-23138d15c67a/dark-pawn.png?v=1698446445180);
+}
+
+.dark-rook,
+.dark-rook2 {
+  background-image: url(https://cdn.glitch.global/63f4677e-df95-47dc-a3a4-23138d15c67a/dark-rook.png?v=1698446440241);
+}
+
+.dark-knight,
+.dark-knight2 {
+  background-image: url(https://cdn.glitch.global/63f4677e-df95-47dc-a3a4-23138d15c67a/dark-knight.png?v=1698446449079);
+}
+
+.dark-bishop,
+.dark-bishop2 {
+  background-image: url(https://cdn.glitch.global/63f4677e-df95-47dc-a3a4-23138d15c67a/dark-bishop.png?v=1698446455938);
+}
+
+.dark-queen {
+  background-image: url(https://cdn.glitch.global/63f4677e-df95-47dc-a3a4-23138d15c67a/dark-queen.png?v=1698446442631);
+}
+
+.dark-king {
+  background-image: url(https://cdn.glitch.global/63f4677e-df95-47dc-a3a4-23138d15c67a/dark-king.png?v=1698446453440);
+}
