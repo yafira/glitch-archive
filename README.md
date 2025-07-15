@@ -1,7 +1,8 @@
 # 🌸 Glitch Archive
 
 *A personal archive of my projects from Glitch.com*
-**Long live Glitch!**
+
+<img src="glitch.png" width="100px" height="100px">
 
 ## ✨ About
 
@@ -33,4 +34,4 @@ Glitch was one of those places for me. This archive is my way of keeping a littl
 ## 🦄 Thank You, Glitch
 
 Thanks to the Glitch team, the community, and everyone who ever shared a remix link. You helped make the internet feel like a playground again.
-**Long live Glitch! 💖**
+### **Long live Glitch! 💖**
