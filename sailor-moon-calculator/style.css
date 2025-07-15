@@ -1,0 +1,181 @@
+:root {
+  --background: #fcfbf1;
+  --font: #222;
+  --border: #333;
+  --screen: #eee;
+  --calculator: rgb(238, 192, 212);
+  --btn: rgb(249, 142, 215);
+  --btn-hover: rgb(252, 214, 249);
+  --btn-active: rgb(254, 254, 254);
+  --btn-pink: rgb(249, 176, 243);
+  --btn-pink-hover: rgb(252, 214, 249);
+  --btn-pink-active: rgb(249, 176, 243);
+  --btn-purple: rgb(211, 211, 250);
+  --btn-purple-hover: #99e;
+  --btn-purple-active: #88d;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--font);
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.6;
+}
+
+button {
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+  box-shadow: 5px 10px rgb(181, 154, 172);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  min-height: 500px;
+  padding: 50px;
+  margin-top: 300px;
+}
+
+.calculator {
+  width: 870px;
+  height: 900px;
+  border: 2px var(--border) solid;
+  border-radius: 15px;
+  padding: 60px;
+  padding-top: 200px;
+  background-color: var(--calculator);
+  position: relative;
+  /* border: 5px solid rgb(233, 169, 214); */
+}
+
+.screen {
+  padding: 10px 20px;
+  border: 2px var(--border) solid;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  background-color: var(--screen);
+  text-align: right;
+  word-wrap: break-word;
+  word-break: break-all;
+  box-shadow: -5px -0px inset(rgb(181, 154, 172));
+}
+
+.screen-last {
+  min-height: 32px;
+  font-size: 20px;
+}
+
+.screen-current {
+  min-height: 64px;
+  font-size: 40px;
+}
+
+.buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.btn {
+  padding: 20px;
+  border: 2px var(--border) solid;
+  border-radius: 50px;
+  background-color: var(--btn);
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: var(--btn-hover);
+}
+
+.btn:active {
+  background-color: var(--btn-active);
+}
+
+.btn-pink {
+  background-color: var(--btn-pink);
+}
+
+.btn-pink:hover {
+  background-color: var(--btn-pink-hover);
+}
+
+.btn-pink:active {
+  background-color: var(--btn-pink-active);
+}
+
+.btn-purple {
+  background-color: var(--btn-purple);
+}
+
+.btn-purple:hover {
+  background-color: var(--btn-purple-hover);
+}
+
+.btn-purple:active {
+  background-color: var(--btn-purple-active);
+}
+
+p {
+  padding-top: 200px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  height: 60px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+footer .fa-heart {
+  color: rgb(217, 181, 242);
+  padding: 0 10px 0;
+}
+
+/* media query */
+@media (max-width: 740px) {
+.calculator {
+    border: 2px var(--border) solid;
+    border-radius: 15px;
+    padding: 10px;
+    padding-top: 200px;
+    background-color: var(--calculator);
+    position: relative;
+    }
+.span-2 {
+    margin-bottom: 40px;
+    }
+p {
+    padding: 220px 50px 10px;
+}
+.star {
+    display: none;
+    }
+}

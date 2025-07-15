@@ -1,0 +1,96 @@
+html {
+  font-family: 'Lato', sans-serif;
+/*   background-color: #D9E1F5; */
+  background: rgb(223,247,252);
+  background: radial-gradient(circle, rgba(223,247,252,1) 0%, rgba(219,215,255,1) 100%);
+}
+
+body {
+  padding: 30px;
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+header {
+  background-color: #D7F7E6;
+  color: rgb(0,0,0);
+  padding: 20px;
+  font-size: 1.2rem;
+  box-shadow: 0px 5px 15px 5px rgba(46, 43, 51, 0.5);
+  border: 5px solid rgb(213,194,247);
+}
+
+h1 {
+  text-align: center;
+}
+
+.new {
+  display: flex;
+  
+}
+
+.new-input {
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  border: 0;
+  font-size: 1.2rem;
+  
+}
+
+.new-button {
+  border: 0;
+  padding: 20px;
+  font-size 1.2rem;
+  font-weight: bold;
+  background-color: lavender;
+  color: white;
+  cursor: pointer;
+}
+
+.new-button:hover {
+  background-color: #B7A0FA;
+  cursor: pointer;
+}
+
+.new-button:disabled {
+  background-color: #D6CCF5;
+  cursor: default;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  padding: 20px 10px;
+  background-color: white;
+}
+
+.item-check {
+  margin-right: 1em;
+}
+
+.item-text {
+  color: #2C89E6;
+}
+
+.delete {
+  width: 20px;
+  margin-left: auto;
+  padding: 0;
+  border: 0;
+  background-size: contain;
+  font-size: 1.2rem;
+  background-color: #FFFFFF;
+  color: #D3D3D3;
+  cursor: pointer;
+}
+
+.task-check:checked + .task-text {
+  text-decoration: line-through;
+}
+

@@ -1,0 +1,81 @@
+body {
+  padding: 40px;
+  background: beige;
+  text-align: center;
+}
+
+p {
+    font-size: 100px;
+}
+
+#apple-shelf {
+  background: lightcoral;
+  border-radius: 10px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+#orange-shelf {
+  background: lightsalmon;
+  border-radius: 10px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+#lemon-shelf {
+  background: yellow;
+  border-radius: 10px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+#grapes-shelf {
+  background: #CBC3E3;
+  border-radius: 10px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+#strawberry-shelf {
+  background: pink;
+  border-radius: 10px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+#add {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+#remove {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+#clear {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+}
+

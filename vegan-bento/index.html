@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <header>
+    <h1 id="title"><center>Vegan Bento Box 🍙 🍡</center></h1>
+  </header>
+  <body>
+    <center>
+  <p id="description">Please fill details below to complete order.<br><i>Orders are limited to 2 per person.</i></p>
+    </center>
+  
+  <form id="survey-form">
+    
+    <div class="input-headings">
+    
+    <label for="name" id="name-label">Name</label>
+    <input id="name" type="text" name="name" placeholder="Full Name" class="form-inputs" required>
+  <br>
+  <br>
+    <label for="email" id="email-label">Email</label>
+    <input id="email" type="email" name="email" placeholder="user@mail.com" class="form-inputs" required>
+  <br>
+  <br>
+    <label for="number" id="number-label">No.</label>
+    <input id="number" type="number" name="number" placeholder="0" min="1" max="2" class="form-inputs" required>
+  <br>
+  <br>
+    
+<label for="dropdown" id="dropdown">Types of Bento</label>
+<select id="dropdown" class="form-input">
+  <option value="bento-1">Marukonouchi Bento</option> 
+  <option value="bento-2">Koraku Bento</option>
+  <option value="bento-3">Hinomaru Bento</option>
+  <option value="bento-4">Ekiben Bento</option>
+  <option value="bento-5">Hinomaru Bento</option>
+  <option value="bento-6">Aisai Bento</option>
+  <option value="bento-7">Shikaeshi Bento</option>
+  <option value="bento-8">Kyaraben Bento</option>
+</select>
+  <br>
+  <br>
+    
+<label for="rice-options" id="rice-options"><b>Choice of Rice:</b></label>
+<br>
+   <input id="rice-options" type="radio" id="base-1" name="base" value="base">
+   <label for="rice-options">White (Hakumai)</label>
+<br>
+    <input id="rice-options" type="radio" id="base-2" name="base" value="base">
+    <label for="rice-options">Genmai</label>
+<br>
+    <input id="rice-options" type="radio" id="base-3" name="base" value="base">
+    <label for="rice-options">Sekihan</label>
+<br>
+    <input id="rice-options" type="radio" id="base-4" name="base" value="base">
+    <label for="rice-options">Zakkokumai</label>
+<br>
+    <input id="rice-options" type="radio" id="base-5" name="base" value="base">
+    <label for="rice-options">Wakame Gohan</label>
+<br>
+    <input id="rice-options" type="radio" id="base-6" name="base" value="base">
+    <label for="rice-options">Noriben</label>
+<br>
+<br>
+
+<label for="add-ons"><b>Add-ons:</b></label>
+<br>
+    <input id="addons" type="checkbox" name="addons" value="additions">
+    <label for="addons">Umeboshi - pickled sour Japanese plums <b>$3.25</b></label>
+<br>
+    <input id="addons" type="checkbox" name="addons" value="additions">
+    <label for="addons">Seasonal Salad - Vegetables and salads are often chosen to reflect the season <b>$5.50</b></label>
+<br>
+     <input id="addons" type="checkbox" name="addons" value="additions">
+    <label for="addons">Tamagoyaki - a sweet Japanese rolled omelette <b>$5.75</b></label>
+<br>
+    <input id="addons" type="checkbox" name="addons" value="additions">
+    <label for="addons">Agemono - Deep-fried foods include chick'n karaage, tofu tempura, croquettes, and fried fishless cakes <b>$12.00</b></label>
+<br>
+    <input id="addons" type="checkbox" name="addons" value="additions">
+    <label for="addons">Tonkatsu - A heavily breaded, deep-fried soy cutlet served with a brown coconut sauce <b>$9.00</b></label>
+<br>
+    <input id="addons" type="checkbox" name="addons" value="additions">
+    <label for="addons">Sushi - Avocado served on top of pressed rice ball <b>$6.50</b></label>
+<br>
+<br>
+    
+<label for="special-items" id="special-items"><b>Choice of Special Item (Free of charge):</b></label>
+<br>
+   <input id="special-items" type="radio" id="choice-1" name="special-item" value="special-item">
+   <label for="special-items">Onigiri Rice Ball</label>
+<br>
+   <input id="special-items" type="radio" id="choice-1" name="special-item" value="special-item">
+   <label for="special-items">Seasonal Wagashi</label>
+<br> 
+    <input id="special-items" type="radio" id="choice-1" name="special-item" value="special-item">
+   <label for="special-items">Seasonal Higashi</label>
+<br>
+         <input id="special-items" type="radio" id="choice-1" name="special-item" value="special-item">
+   <label for="special-items">Sweet Hanami Dango</label>
+<br> 
+<br>
+    
+<label id="textarea"><b>Additional comments</b>
+  <br>
+  <i>Please indicate if any food allergies.*</i></label>
+<br>
+    <textarea id="textarea" name="instructions" row="10" cols="50">
+   
+    </textarea>
+    <br>
+    <br>
+    
+<input id="submit" type="submit" value="Place Order" class="submit-btn">
+    
+    </div>
+  </form>
+</body>
+</html>

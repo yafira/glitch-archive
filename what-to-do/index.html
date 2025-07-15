@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>TODO</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="https://cdn.glitch.global/db0f70fe-9003-4055-b9a4-9ab028c66219/apple-touch-icon.png?v=1686940561887"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="https://cdn.glitch.global/db0f70fe-9003-4055-b9a4-9ab028c66219/favicon-32x32.png?v=1686940562179"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="https://cdn.glitch.global/db0f70fe-9003-4055-b9a4-9ab028c66219/favicon-16x16.png?v=1686940562063"
+		/>
+		<link rel="manifest" href="/site.webmanifest" />
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#603cba" />
+		<meta name="theme-color" content="#ffffff" />
+		<link rel="stylesheet" href="./style.css" />
+
+		<script src="/script.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h1>TODO:</h1>
+			<main>
+				<div class="new">
+					<input
+						type="text"
+						placeholder="what will you do today?"
+						id="new"
+						class="new-input"
+					/>
+
+					<button id="add" class="new-button" disabled="true">+</button>
+				</div>
+				<ul id="tasks"></ul>
+			</main>
+
+			<template id="taskTemplate">
+				<li>
+					<label class="item">
+						<input class="item-check" type="checkbox" />
+						<span class="item-text"></span>
+						<button class="delete">x</button>
+					</label>
+				</li>
+			</template>
+		</header>
+	</body>
+</html>
